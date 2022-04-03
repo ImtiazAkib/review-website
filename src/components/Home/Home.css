@@ -1,0 +1,49 @@
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-left {
+  width: 40%;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 80px;
+}
+
+.banner-left button {
+  margin-top: 15px;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7510f7;
+  color: white;
+}
+
+.banner-left button:hover {
+  cursor: pointer;
+  background-color: #9550ef;
+}
+
+.review a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7510f7;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.review a:hover {
+  cursor: pointer;
+  background-color: #9550ef;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
